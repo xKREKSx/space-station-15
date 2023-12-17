@@ -173,7 +173,7 @@ public sealed class TTSManager
         public bool PutYo { get; private set; } = false;
 
         [JsonPropertyName("sample_rate")]
-        public int SampleRate { get; private set; } = 24000;
+        public int SampleRate { get; private set; } = 48000;
 
         [JsonPropertyName("format")]
         public string Format { get; private set; } = "ogg";
